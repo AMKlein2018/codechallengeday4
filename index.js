@@ -28,9 +28,9 @@ function allnumbers (array) {
 	for (i = 0; i <= 100; i++) {
 		console.log (result)
 
-	if (i % 3 || i % 4) {
+		if (array [i] % 3 === 0|| [i] % 4 === 0) {
 		console.log("this is divisible by 3 or 4")
-	} else {
+	} 	else {
 		console.log ()
 	}
 
@@ -39,5 +39,5 @@ function allnumbers (array) {
 
 
 
-Code 
+
 
